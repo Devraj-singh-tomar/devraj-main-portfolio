@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: #14131a;
+    box-sizing: border-box;
+}
+
+.vertical-bar {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    /* background-color: red; */
+    z-index: 30;
+}
+
+.vertical-navbar {
+    margin: 1.25rem;
+    flex-direction: column;
+    width: 100%;
+}
+
+.highlights {
+    gap: 0.5rem;
+    padding-top: 0;
+    padding: .25rem;
+    margin-left: 1rem;
+}
+
+.btn-highlights {
+    padding: 0.2rem;
+    height: 1rem;
+    width: 1rem;
+    background-color: #2bd576;
+    border-radius: 999px;
+}
+
+.navbar {
+    height: 100%;
+    width: 90%;
+    position: relative;
+    margin-top: 1rem;
+    padding: 1.25rem;
+    background-color: #1c1b23;
+    border-radius: 6px;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.navbar span {
+    top: 0;
+    align-items: center;
+    /* text-align: center; */
+    position: relative;
+    display: flex;
+    margin-left: 12px;
+    color: #8e8c8c;
+    font-size: 0.9rem;
+    transition:top ease .35s;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.navbar a span:hover{
+    color: white;
+    top: -1px;
+}
+
+.social{
+margin-top: 30px;
+font-size: 1.3rem;
+color: white;
+}
