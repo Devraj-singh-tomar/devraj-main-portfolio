@@ -8,6 +8,7 @@
 }
 
 body {
+    height: 50vw;
     background-color: #14131a;
     box-sizing: border-box;
 }
@@ -37,7 +38,7 @@ body {
     padding: 0.2rem;
     height: 1rem;
     width: 1rem;
-    background-color: #2bd576;
+    background-color: #7047c7;
     border-radius: 999px;
 }
 
@@ -62,7 +63,7 @@ body {
     margin-left: 12px;
     color: #8e8c8c;
     font-size: 0.9rem;
-    transition:top ease .35s;
+    /* transition:top ease .85s; */
 }
 
 .navbar li {
@@ -73,13 +74,14 @@ body {
     text-decoration: none;
 }
 
-.navbar a span:hover{
+.navbar a span:hover {
     color: white;
-    top: -1px;
+    font-size: .93rem;
 }
 
-.social{
-margin-top: 30px;
-font-size: 1.3rem;
-color: white;
+.social {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #b3b3b3;
 }
