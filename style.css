@@ -85,3 +85,11 @@ body {
     font-size: 1.1rem;
     color: #b3b3b3;
 }
+
+main{
+
+    /* no need to give heigth and width make the content and it will adjust according to it */
+    width: 100%;
+    height: 100vh;
+    padding-left: 300px;
+}
